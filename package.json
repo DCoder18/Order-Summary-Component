@@ -1,0 +1,22 @@
+{
+  "name": "order-summary-component",
+  "version": "1.0.0",
+  "description": "![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DCoder18/Order-Summary-Component.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DCoder18/Order-Summary-Component/issues"
+  },
+  "homepage": "https://github.com/DCoder18/Order-Summary-Component#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

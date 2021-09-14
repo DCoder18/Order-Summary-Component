@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: no-repeat top/cover url("../images/pattern-background-desktop.svg");
+  background-color: #e0e8ff;
+}
+/*# sourceMappingURL=style.css.map */
