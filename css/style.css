@@ -13,4 +13,26 @@ body {
   background: no-repeat top/cover url("../images/pattern-background-desktop.svg");
   background-color: #e0e8ff;
 }
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.container .card {
+  max-width: 40vw;
+  background-color: #fff;
+}
 /*# sourceMappingURL=style.css.map */

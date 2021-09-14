@@ -18,3 +18,18 @@ body {
     background: no-repeat top/cover url('../images/pattern-background-desktop.svg');
     background-color: $pale_blue;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .card {
+    max-width: 40vw;
+    background-color: #fff;
+  }
+}
