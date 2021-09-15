@@ -84,6 +84,7 @@ img {
   padding: 2.5rem;
   border-radius: 1.5rem;
   align-items: center ;
+  margin: 0 3rem 3rem;
 
   &__icon {
     margin-right: 2rem;
@@ -94,7 +95,6 @@ img {
     display: flex;
     flex-direction: column;
     text-align: left;
-
   }
   
   &__heading {
@@ -111,12 +111,20 @@ img {
     text-decoration: none;
   }
 
-  &--link {
+  &--text {
     margin-left: auto;
     justify-content: flex-end;
     color: $bright_blue;
     text-decoration: underline;
     font-size: 1.4rem;
     font-weight: 700;
+  }
+
+  &--primary {
+    background: $bright_blue;
+    color: #fff;
+    border-radius: 1rem;
+    padding: 1.5rem 2rem;
+    width: 36rem;
   }
 }

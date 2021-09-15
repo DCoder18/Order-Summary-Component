@@ -93,6 +93,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0 3rem 3rem;
 }
 
 .plan__icon {
@@ -121,7 +122,7 @@ img {
   text-decoration: none;
 }
 
-.btn--link {
+.btn--text {
   margin-left: auto;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
@@ -130,5 +131,13 @@ img {
   text-decoration: underline;
   font-size: 1.4rem;
   font-weight: 700;
+}
+
+.btn--primary {
+  background: #3829e0;
+  color: #fff;
+  border-radius: 1rem;
+  padding: 1.5rem 2rem;
+  width: 36rem;
 }
 /*# sourceMappingURL=style.css.map */
