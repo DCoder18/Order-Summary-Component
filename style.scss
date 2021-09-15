@@ -27,6 +27,10 @@ body {
     color: $desaturated_blue;
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -45,13 +49,14 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-size: 1.6rem;
 
   &__image {
     border-radius: 2rem 2rem 0 0;
   }
 
   &__heading {
-    padding: 4rem 0 2rem;
+    padding: 4rem 0 1rem;
     font-size: 3rem;
     font-weight: 700;
     color: $dark_blue;
@@ -59,7 +64,59 @@ body {
 
   &__para {
     max-width: 40rem;
-    padding: 0 2rem;
-    font-size: 1.6rem;
+    padding: 0 2rem 2rem;
+  }
+
+  &__primary-btn {
+
+  }
+
+  &__cancel-btn {
+
+  }
+}
+
+.plan {
+  background-color: $very_pale_blue;
+  display: flex;
+  flex-direction: row;
+  width: 36rem;
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+  align-items: center ;
+
+  &__icon {
+    margin-right: 2rem;
+
+  }
+  
+  &__price-box {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+  }
+  
+  &__heading {
+    color: $dark_blue;
+    font-weight: 700;
+    font-size: inherit;
+    margin-bottom: 0.2rem;
+  }
+}
+
+.btn {
+  &:link,
+  &:visited {
+    text-decoration: none;
+  }
+
+  &--link {
+    margin-left: auto;
+    justify-content: flex-end;
+    color: $bright_blue;
+    text-decoration: underline;
+    font-size: 1.4rem;
+    font-weight: 700;
   }
 }
