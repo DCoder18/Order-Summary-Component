@@ -13,10 +13,18 @@ $dark_blue: hsl(223, 47%, 23%);
     box-sizing: inherit;
 }
 
+html {
+  //Defines what 1rem is
+  font-size: 62.5%; //10px
+}
+
 body {
     box-sizing: border-box;
     background: no-repeat top/cover url('../images/pattern-background-desktop.svg');
     background-color: $pale_blue;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    color: $desaturated_blue;
 }
 
 .container {
@@ -27,9 +35,31 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
 
-  .card {
-    max-width: 40vw;
-    background-color: #fff;
+.card {
+  background-color: #fff;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  &__image {
+    border-radius: 2rem 2rem 0 0;
+  }
+
+  &__heading {
+    padding: 4rem 0 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    color: $dark_blue;
+  }
+
+  &__para {
+    max-width: 40rem;
+    padding: 0 2rem;
+    font-size: 1.6rem;
   }
 }

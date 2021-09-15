@@ -7,11 +7,18 @@
           box-sizing: inherit;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: no-repeat top/cover url("../images/pattern-background-desktop.svg");
   background-color: #e0e8ff;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 400;
+  color: #7280a7;
 }
 
 .container {
@@ -31,8 +38,39 @@ body {
           transform: translate(-50%, -50%);
 }
 
-.container .card {
-  max-width: 40vw;
+.card {
   background-color: #fff;
+  border-radius: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.card__image {
+  border-radius: 2rem 2rem 0 0;
+}
+
+.card__heading {
+  padding: 4rem 0 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1f2f56;
+}
+
+.card__para {
+  max-width: 40rem;
+  padding: 0 2rem;
+  font-size: 1.6rem;
 }
 /*# sourceMappingURL=style.css.map */
