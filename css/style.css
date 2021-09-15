@@ -60,6 +60,7 @@ img {
           align-items: center;
   text-align: center;
   font-size: 1.6rem;
+  padding-bottom: 3.5rem;
 }
 
 .card__image {
@@ -139,5 +140,10 @@ img {
   border-radius: 1rem;
   padding: 1.5rem 2rem;
   width: 36rem;
+  margin-bottom: 2.5rem;
+}
+
+.btn--cancel {
+  font-weight: 700;
 }
 /*# sourceMappingURL=style.css.map */

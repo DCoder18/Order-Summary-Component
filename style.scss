@@ -50,6 +50,7 @@ img {
   align-items: center;
   text-align: center;
   font-size: 1.6rem;
+  padding-bottom: 3.5rem;
 
   &__image {
     border-radius: 2rem 2rem 0 0;
@@ -65,14 +66,6 @@ img {
   &__para {
     max-width: 40rem;
     padding: 0 2rem 2rem;
-  }
-
-  &__primary-btn {
-
-  }
-
-  &__cancel-btn {
-
   }
 }
 
@@ -126,5 +119,14 @@ img {
     border-radius: 1rem;
     padding: 1.5rem 2rem;
     width: 36rem;
+    margin-bottom: 2.5rem;
   }
+
+  &--cancel {
+    font-weight: 700;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+
 }
