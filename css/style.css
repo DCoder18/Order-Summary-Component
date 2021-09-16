@@ -60,7 +60,7 @@ img {
           align-items: center;
   text-align: center;
   font-size: 1.6rem;
-  padding-bottom: 3.5rem;
+  padding-bottom: 2.5rem;
   -webkit-box-shadow: 0px 20px 85px -37px rgba(56, 41, 224, 0.4);
           box-shadow: 0px 20px 85px -37px rgba(56, 41, 224, 0.4);
 }
@@ -71,7 +71,7 @@ img {
 }
 
 .card__heading {
-  padding: 4rem 0 1rem;
+  padding: 4rem 0 1.5rem;
   font-size: 3rem;
   font-weight: 900;
   color: #1f2f56;
