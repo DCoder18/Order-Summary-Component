@@ -127,6 +127,16 @@ img {
   }
 }
 
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 420px) {
+  .card {
+    max-width: 95%;
+  }
 
+  .plan {
+    max-width: 30rem;
+  }
+
+  .btn--primary {
+    max-width: 30rem;
+  }
 }
