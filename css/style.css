@@ -80,6 +80,7 @@ img {
 .card__para {
   max-width: 40rem;
   padding: 0 2rem 2rem;
+  line-height: 2.3rem;
 }
 
 .plan {
